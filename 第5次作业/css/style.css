@@ -1,0 +1,173 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+#main{
+	background-image: url(../img/Background.gif);
+	width: 1335px;
+	height: 1420px;
+}
+#head{
+	width: 1335px;
+	height: 37px;
+}
+#top{
+	position: absolute;
+	z-index: 1;
+}
+#sep{
+	position: absolute;
+	z-index: 2;
+	top: 9px;
+}
+#topnav{
+	position: absolute;
+	z-index: 3;
+	margin: 11px 0px 10px 185px;
+	font-size: 12px;
+}
+#topnav>.text{
+	color: #818082;
+}
+#topnav>.text:hover{
+	text-decoration:underline;
+	color: #ffffff;
+	cursor: pointer;
+}
+#title{
+	margin: 35px 180px 0px 180px;
+}
+#search{
+	float: right;
+	position: relative;
+	bottom: 26px;
+}
+#nav{
+	margin: 31px 180px 0px 180px;
+	height: 63px;
+}
+#nav img{
+	position: absolute;
+	z-index: 1;
+}
+#nav ul{
+	position: relative;
+	top: 1px;
+	left: 1px;
+	z-index: 2;
+}
+#nav li{
+	list-style: none;
+	float: left;
+	line-height: 67px;
+	padding: 0px 22px 0px 22px;
+}
+#nav a{
+	text-decoration: none;
+	color: #ffffff;
+	font-family: "calibri";
+	font-size: 16px;
+	font-weight: bold;
+	text-shadow:black 0 1px 2px;
+}
+#nav li:hover{
+	background-image: url(../img/Hover.png);
+	background-repeat: repeat-x;
+}
+#slider{
+	height: 459px;
+	margin: 19px 180px 0px 180px;
+}
+#tran{
+	position: relative;
+	bottom: 69px;
+	left: 5px;
+	border-radius: 7px;
+}
+#cry{
+	position: absolute;
+	left: 384px;
+	top: 611px;
+}
+#slider>p{
+	color: #8a8b89;
+	font-size: 12px;
+	font-family: "Arial";
+	position: absolute;
+	left: 694px;
+	top: 614px;
+}
+#btn{
+	position: absolute;
+	left: 876px;
+	top: 604px;
+}
+#btn:hover{
+	cursor: pointer;
+}
+.exc{
+	position: relative;
+	left: 450px;
+	bottom: 63px;
+}
+#body_{
+	width: 978px;
+	height: 634px;
+	margin: 26px 180px 0px 186px;
+}
+.top_left{
+	width: 619px;
+	height: 231px;
+	margin: 27px 14px 36px 20px;
+}
+.top_right{
+	width: 291px;
+	height: 231px;
+	margin: 27px 20px 36px 14px;
+}
+.bottom_left{
+	width: 619px;
+	height: 267px;
+	margin: 36px 14px 38px 20px;
+}
+.bottom_right{
+	width: 291px;
+	height: 267px;
+	margin: 36px 20px 38px 14px
+}
+.top_left,.top_right{
+	float: left;
+}
+.bottom_left,.bottom_right{
+	float: left;
+}
+.text{
+	font-size: 12px;
+	font-family: "Arial";
+	font-weight: bold;
+	color: #a8a8a8;
+}
+.text2{
+	font-size: 12px;
+	font-family: "Arial";
+	color: #a8a8a8;
+}
+#btn1{
+	position: relative;
+	top: 35px;
+}
+.top_right a{
+	font-size: 12px;
+	font-family: "Arial";
+	color: #349ce6;
+}
+.top_right li{
+	margin: 8px;
+}
+#foot{
+	margin: 20px 180px 0px 180px
+}
+.haha{
+	position: relative;
+	left: 120px;
+}
